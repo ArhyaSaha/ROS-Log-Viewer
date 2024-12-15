@@ -3,8 +3,12 @@
 ## Overview
 ROS Log Viewer and Analyzer is a web application designed to upload, view, filter, and analyze ROS (Robot Operating System) log files. The application provides a user-friendly interface to search and filter logs based on various criteria and download the filtered logs for further analysis.
 
+## Deployment
+Netlify Link: https://roslogview.netlify.app/
+Backend is deployed on Render.
+
 ## Features
-- **Upload Logs**: Upload `.log` and `.txt` files containing ROS logs. Note: the logs should be in the format: [YYYY-MM-DD HH:MM:SS] [YYYY-MM-DD HH:MM:SS] [Level] [Node] Message
+- **Upload Logs**: Upload `.log` and `.txt` files containing ROS logs. Note: the logs should be in the format: [YYYY-MM-DD HH:MM:SS] [Level] [Node] Message
 - **View Logs**: Display logs in a tabular format with pagination.
 - **Search and Filter**: Search logs by message content and filter by log level and node.
 - **Download Logs**: Download filtered logs as a CSV file.
