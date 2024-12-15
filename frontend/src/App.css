@@ -1,0 +1,55 @@
+#root {
+  margin: 0 ;
+  text-align: center;
+  overflow-x: hidden;
+  background-color: #070707;
+}
+html{
+  background-color: #070707;
+}
+.custom-number-input {
+    -moz-appearance: textfield;
+    -webkit-appearance: none;
+    appearance: none;
+    position: relative;
+    padding-right: 24px; /* Adjust padding to make space for custom arrows */
+}
+
+.custom-number-input::-webkit-inner-spin-button,
+.custom-number-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.custom-number-input::after {
+    content: '';
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.custom-number-input::before {
+    content: '';
+    position: absolute;
+    right: 8px;
+    bottom: 50%;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid white;
+    transform: translateY(50%);
+    pointer-events: none;
+}
+
+.bg-1{
+  /* background-color: #121216; */
+  background-color: #1b1b22;
+}
